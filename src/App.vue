@@ -1,18 +1,22 @@
-<script setup>
-import Navbar from './components/Navbar.vue';
-const links = [
-  {id: 1, name: 'Home', path: '/'},
-  {id: 2, name: 'About Us', path: '/about'},
-  {id: 3, name: 'Docs', path: '/docs'}
-]
+<script>
+import '../public/adaptation.css'
+export default{
+  created(){
+    this.$store.dispatch('CAT')
+  }
+}
 </script>
 
 <template>
-  <Navbar title="DemoApp" :links="links" />
-  <div class="pt-20">
     <router-view />
-  </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
 </style>

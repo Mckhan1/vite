@@ -1,0 +1,663 @@
+@media screen and (max-width: 1440px) {
+    .nav {
+        /* display: block !important; */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container h1 {
+        width: 75% !important;
+    }
+
+    .item {
+        height: 390px;
+        width: 300px !important;
+    }
+
+    .area {
+        width: 470px !important;
+    }
+
+    .exchange {
+        height: max-content !important;
+
+    }
+
+    .exchange__wrapper {
+        margin-bottom: 10px !important;
+    }
+
+    .exchange__text {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: max-content !important;
+    }
+
+    .exchange__text h2 {
+        font-size: 24px;
+    }
+
+    .exchangeTwo {
+        margin-bottom: 20px;
+        width: max-content !important;
+    }
+
+    .goodTovar {
+        padding-top: 20px !important;
+    }
+
+    .after::after {
+        left: -10% !important;
+        transform: translateX(-50%);
+    }  
+    .textSpan{
+        font-size: 14px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container h1 {
+        width: 100% !important;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .blockInp {
+        width: 100% !important;
+    }
+
+    .exchange__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firePrice {
+        display: flex;
+        justify-content: start !important;
+    }
+
+    .created p,
+    .created span {
+        font-size: 12px !important;
+    }
+
+    .predmet p,
+    .predmet span {
+        font-size: 12px !important;
+    }
+
+    .payment button:nth-child(1) {
+        font-size: 12px !important;
+        padding: 10px 20px !important;
+        margin-right: 10px !important;
+    }
+
+    .payment button:nth-child(2) {
+        font-size: 12px !important;
+        padding: 10px 8px !important;
+    }
+
+    .textTastyog div h2 {
+        font-size: 35px !important;
+    }
+
+    .after::after {
+        left: -13.5% !important;
+        transform: translateX(-50%);
+    }
+
+    .textYobo {
+        width: 100% !important;
+    }
+
+    .img img {
+        width: 600px !important;
+    }
+
+    .time div div {
+        width: 40px !important;
+    }
+    .textWrp p:nth-child(3), .textWrp p:nth-child(4){
+
+    }
+    .imagWrp{
+        /* background: red !important; */
+        width: 450px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        width: 100% !important;
+    }
+
+    .nav1 {
+        display: none !important;
+
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .burger {
+        display: block !important;
+        margin-left: 16px;
+        margin-right: 24px;
+    }
+
+    .container .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .container .wrapper h1 {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .footer div {
+        flex-direction: column !important;
+    }
+
+    .footer div div {
+        text-align: center;
+        flex-direction: column !important;
+    }
+
+    .footer div div li:nth-child(2),
+    .footer div div li:nth-child(3) {
+        margin-left: 0px !important;
+    }
+
+    .wrp input {
+        width: 288px !important;
+    }
+
+    .sign {
+        padding: 14px 119px 14px 119px !important;
+    }
+
+    .error h1 {
+        /* transform: rotate(90deg) !important; */
+        font-size: 40px !important;
+    }
+
+    .cont {
+        height: 600px !important;
+    }
+
+    .blockInp {
+        height: 100% !important;
+
+    }
+
+    .blockInp form input,
+    .blockInp form textarea {
+        width: 300px !important;
+    }
+
+    .blockInp h2 {
+        font-size: 25px;
+        margin: 24px 0;
+
+    }
+
+    .shadow {
+        align-items: center;
+        justify-content: center;
+        left: -25% !important;
+        top: 40% !important;
+        transform: rotate(90deg) !important;
+    }
+
+    .schet {
+        height: max-content !important;
+    }
+
+    .schet h2 {
+        font-size: 24px;
+    }
+
+    .radius {
+        margin-left: -10px;
+        padding: 0px !important;
+    }
+
+    .radius button {
+        font-size: 12px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        border-radius: 0px !important;
+    }
+
+    .redkost {
+        display: none !important;
+    }
+
+    .exchange__text span {
+        display: none !important;
+    }
+
+    .redkostActive {
+        display: block !important;
+    }
+
+    .resetActive {
+        display: block !important;
+    }
+
+    .reset {
+        display: none !important;
+    }
+
+    .exchange__text {
+        display: flex;
+        /* background: rgba(134, 111, 111, 0.106) !important; */
+        width: 100% !important;
+        flex-direction: column !important;
+        position: relative;
+    }
+
+    .exchange {
+        height: max-content !important;
+    }
+
+    .exchangeTwo input {
+        width: 350px !important;
+    }
+
+    .searcherScroll {
+        width: 350px !important;
+    }
+
+    .tovarCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .created p {
+        font-weight: 600;
+        width: 100% !important;
+        font-size: 16px !important;
+    }
+
+    .predmet p {
+        font-weight: 600;
+        font-size: 16px !important;
+        width: 100% !important;
+    }
+
+    .created span {
+        font-size: 14px !important;
+        width: 100% !important;
+    }
+
+    .predmet span {
+        font-size: 14px !important;
+        width: 100% !important;
+    }
+
+    .payment {
+        display: none !important;
+    }
+
+    .sver {
+        display: none !important;
+    }
+
+    .bgHid {
+        display: block !important;
+    }
+
+
+    .textTastyog div h2 {
+        font-size: 25px !important;
+    }
+
+    .after::after {
+        left: -12.5% !important;
+        transform: translateX(-50%);
+    }
+
+    .block1,
+    .block2,
+    .block3,
+    .block4 {
+        margin-left: 40px !important;
+    }
+
+    .block1 h2 {
+        font-size: 20px !important;
+    }
+
+    .block1 div {
+        flex-direction: column !important;
+    }
+
+    .block1 div span:nth-child(1) {
+        margin-bottom: 19px !important;
+    }
+
+    .block1 div span:nth-child(2) {
+        margin-left: 0px !important;
+    }
+
+    .block1 div input {
+        width: 315px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .block1 div button {
+        margin-left: 0px !important;
+        padding: 14px 68px !important;
+    }
+
+    .text h2 {
+        font-size: 20px !important;
+    }
+
+    .block2 .time {
+        flex-direction: column !important;
+    }
+
+    .time {
+        height: max-content !important;
+    }
+
+    .time div div {
+        width: 60px !important;
+    }
+
+    .textP {
+        margin-top: 16px !important;
+        margin-bottom: 16px;
+        margin-left: 0px !important;
+    }
+
+    .btns {
+        flex-direction: column !important;
+    }
+
+    .btns :nth-child(2) {
+        margin-left: 0px !important;
+        margin-top: 16px !important;
+    }
+
+    .yodo {
+        flex-direction: column !important;
+    }
+
+    .img {
+        margin-top: 28px !important;
+        width: 300px !important;
+    }
+
+    .block4 {
+        margin-bottom: 100px !important;
+    }
+
+    .disabledBlock h2 {
+        font-size: 18px !important;
+    }
+
+    .text h2 {
+        margin-top: 10px !important;
+    }
+    .wrapper{
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        
+    }
+    .imagWrp{
+        width: 180px !important;
+        height: 170px !important;
+        margin-top: 24px !important;
+    }
+    .textWrp{
+        margin-left: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        width: 100% !important;
+    }
+
+    .burgerMenu {
+        width: 90% !important;
+        margin: auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .error h1 {
+        /* transform: rotate(90deg) !important; */
+        font-size: 40px !important;
+    }
+
+    .blockInp h2 {
+        font-size: 20px;
+        margin-bottom: 24px;
+
+    }
+
+    .shadow {
+        align-items: center;
+        justify-content: center;
+        left: -35% !important;
+        top: 40% !important;
+        transform: rotate(90deg) !important;
+    }
+
+    .radius button {
+        /* font-size: 12px !important; */
+        height: max-content !important;
+        margin-left: -5px !important;
+        width: 180px !important;
+        border-radius: 0px !important;
+    }
+
+    .exchangeTwo input {
+        width: 320px !important;
+    }
+
+    .searcherScroll {
+        width: 320px !important;
+    }
+
+    .payActive div button:nth-child(2) {
+        padding: 14px 100px !important;
+        margin-left: 50px !important;
+    }
+
+    .payActive div button:nth-child(1) {
+        padding: 14px 36px !important;
+        margin-left: 50px !important;
+    }
+
+    .block1 div input {
+        width: 280px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .btns button {
+        width: 100% !important;
+        padding: 4px 50px;
+    }
+
+    .img {
+        margin-left: -25px !important;
+    }
+
+    .img img {
+        width: 300px !important;
+    }
+
+    .disabledBlock h2 {
+        font-size: 18px !important;
+    }
+
+    .text h2 {
+        margin-top: 10px !important;
+    }
+
+    .after::after {
+        left: -14.5% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: 100% !important;
+    }
+
+    .burgerMenu {
+        width: 90% !important;
+        margin: auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .error h1 {
+        /* transform: rotate(90deg) !important; */
+        font-size: 30px !important;
+    }
+
+    .blockInp form input,
+    .blockInp form textarea {
+        width: 260px !important;
+    }
+
+    .blockInp h2 {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .shadow {
+        align-items: center;
+        justify-content: center;
+        left: -50% !important;
+        top: 40% !important;
+        transform: rotate(90deg) !important;
+
+    }
+
+    .textTast span,
+    .textTast p {
+        font-size: 14px !important;
+    }
+
+    .radius button {
+        height: max-content !important;
+        margin-left: -10px !important;
+        width: 160px !important;
+        border-radius: 0px !important;
+    }
+
+    .exchange__text h2 {
+        font-size: 18px !important;
+    }
+
+    .exchange__text p {
+        font-size: 12px !important;
+    }
+
+    .exchangeTwo {
+        width: 300px !important;
+        margin-left: -20px !important;
+    }
+
+    .goodTovar .vibrat {
+        font-size: 12px !important;
+    }
+
+    .exchangeTwo p {
+        font-size: 12px !important;
+    }
+
+    .exchangeTwo input {
+        width: 280px !important;
+    }
+
+    .searcherScroll {
+        width: 280px !important;
+    }
+
+    .payActive div button:nth-child(2) {
+        padding: 14px 95px !important;
+        margin-left: 25px !important;
+    }
+
+    .payActive div button:nth-child(1) {
+        padding: 14px 30px !important;
+        margin-left: 25px !important;
+    }
+
+    .blocks {
+        width: 115px !important;
+    }
+
+    .after::after {
+        left: -17.5% !important;
+    }
+
+    .textTastyog span {
+        font-size: 12px !important;
+    }
+
+    .block1 div input {
+        width: 230px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .time div div {
+        width: 45px !important;
+    }
+
+    .text h2 {
+        margin-top: 80px !important;
+    }
+
+    .disabledBlock h2 {
+        margin-top: 70px !important;
+    }
+
+    .textP {
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+
+    .img {
+        width: 250px !important;
+        margin-left: -25px !important;
+    }
+
+    .img img {
+        width: 100% !important;
+    }
+
+    .block4 {
+        margin-bottom: 110px !important;
+    }
+
+
+}
