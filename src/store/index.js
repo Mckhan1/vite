@@ -1374,7 +1374,7 @@ export default createStore({
 
     PROVER__MUTATION(state, check) {
       for (let i of state.users) {
-        if (i.mail == check.email || i.password == check.password) {
+        if (i.mail == check.email && i.password == check.password) {
           state.eventUser = i
           state.loginStatus = true
           console.log(`${i.name} `);
